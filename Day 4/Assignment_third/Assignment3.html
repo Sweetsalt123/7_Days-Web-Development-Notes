@@ -1,0 +1,115 @@
+<html>
+    <head>
+        <script language="JavaScript">
+            function length()
+            {
+                var str = document.getElementById('t1').value;
+                document.getElementById('r1').value=str.length;
+            }
+
+            function replace()
+            {
+                var str = document.getElementById('t2').value;
+                var firstWord = document.getElementById('t3').value;
+                var secondWord = document.getElementById('t4').value;
+                document.getElementById('r2').value=str.replace(firstWord,secondWord);
+               
+            }
+
+            function replaceAll()
+            {
+                var str = document.getElementById('t2').value;
+                var firstWord = document.getElementById('t3').value;
+                var secondWord = document.getElementById('t4').value;
+                document.getElementById('r2').value=str.replaceAll(firstWord,secondWord);
+            }
+
+            function concat()
+            {
+                var name = document.getElementById('t5').value;
+                var surname = document.getElementById('t6').value; 
+                document.getElementById('r3').value = name.concat(" ",surname);
+            }
+
+            function padStart()
+            {
+                var digit = document.getElementById('t7').value;
+                var symbol = document.getElementById('t8').value;
+                var position = document.getElementById('t9').value;
+                document.getElementById('r4').value = digit.padStart(position,symbol);
+            }
+            function padEnd()
+            {
+                var digit = document.getElementById('t7').value;
+                var symbol = document.getElementById('t8').value;
+                var position = document.getElementById('t9').value;
+                document.getElementById('r4').value = digit.padEnd(position,symbol);
+            }
+        </script>
+    </head>
+    <body>
+        Enter your Name:
+        <br>
+        <input type="text"  id="t1">
+        <br>
+
+        Your data is:
+        <br>
+        <input type="text"  id="r1">
+        <br>
+        
+        <input type="button" value="Length" onclick="length()">
+        <hr>
+        Enter your Message:
+        <br>
+        <input type="text"  id="t2">
+        <br>
+        Enter a word you want to replace:
+        <br>
+        <input type="text"  id="t3">
+        <br>
+        Enter a word you want to replace with:
+        <br>
+        <input type="text"  id="t4">
+        <br>
+        Your data is:
+        <br>
+        <input type="text"  id="r2">
+        <br>
+        <button onclick="replace()">Replace</button>
+        <button onclick="replaceAll()">ReplaceAll</button>
+        <hr>
+        Enter your Name:
+        <br>
+        <input type="text"  id="t5">
+        <br>
+        Enter your Surname:
+        <br>
+        <input type="text"  id="t6">
+        <br>
+        Your data is:
+        <br>
+        <input type="text"  id="r3">
+        <br>
+        <button onclick="concat()">Concat</button>
+        <hr>
+        Enter your digit:
+        <br>
+        <input type="text"  id="t7">
+        <br>
+        Enter your Symbol:
+        <br>
+        <input type="text"  id="t8">
+        <br>
+        Enter number of positions:
+        <br>
+        <input type="text"  id="t9">
+        <br>
+        Your data is:
+        <br>
+        <input type="text"  id="r4">
+        <br>
+        <button onclick="padStart()">padStart</button>
+        <button onclick="padEnd()">padEnd</button>
+    </body>
+</html>

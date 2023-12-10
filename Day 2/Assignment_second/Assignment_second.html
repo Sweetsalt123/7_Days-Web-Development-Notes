@@ -1,0 +1,51 @@
+<html>
+<head>
+<script language="JavaScript">
+var name,city,state,country,mobile,email,college;
+var math , c, java, html, JavaScript, total;
+
+// personal details
+ name=prompt("Enter your Name"); 
+ college=prompt("Enter your college");
+ mobile=prompt("Enter your mobile");
+ city=prompt("Enter your city");
+ state=prompt("Enter your state");
+ country=prompt("Enter your country");
+ 
+ 
+ // subject input
+ math=parseInt(prompt("Enter your scroe of math below 100 "));
+ c=parseInt(prompt("Enter your score of c language below 100"));ss
+ java=parseInt(prompt("Enter your score of java below 100"));
+ html=parseInt(prompt("Enter your  score of HTML below 100"));
+ JavaScript=parseInt(prompt("Enter your scoreof JavaScript below 100"));
+ 
+ // display personal information 
+ document.write("<font color=red>"+name+"</font><br>");
+ 
+  document.write("<font color=red>"+email+"</font><br>");
+  document.write("<font color=red>"+mobile+"</font><br>");
+ document.write(college+"<br>");
+ document.write(city+"<br>");
+ document.write(state+"<br>");
+ document.write(country+"<br>");
+  
+ // display score Entered
+ total=math+c+java+html+JavaScript;
+ document.write("your scroe of  math is :"+math+"<br>");
+ document.write("your score of c language is :"+c+"<br>");
+ document.write("your score of java is :"+java+"<br>");
+ document.write("your  score of HTML is :"+html+"<br>");
+ document.write("your scoreof JavaScript is :"+JavaScript+"<br>");
+
+total = math+c+java+html+JavaScript;
+
+if(math>40 && c>40 && java>40 && html>40 && JavaScript>40)
+{
+document.write("Total :"+ total+"<br>"+"You are eligible");
+}
+else
+document.write("Your not Eligible");
+</script>
+</head>
+</html>

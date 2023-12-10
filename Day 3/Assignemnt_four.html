@@ -1,0 +1,81 @@
+<html>
+<head>
+<script language="JavaScript">
+var percent,name1,college1,subject1,branch1;
+function input(name,college,subject,branch,per)
+{
+percent=per;
+name1=name;
+college1=college;
+subject1=subject;
+branch1=branch;
+display();
+grade(percent);
+}
+function grade(percent)
+{
+   if(percent>60)
+   {
+   document.write("A grade");
+   }
+   else if(percent>60 && percent<60)
+   {
+   document.write("B grade");
+   }
+   else
+   {
+   document.write("Fail");
+   }
+}
+function display()
+{
+document.write("Your Name : "+name1+"<br>"+" Your College Name : "+college1+"<br>"+"Subject : "+subject1+"<br>"+"Your Branch : "+branch1+"<br>"+"Percentage :"+percent+"<br>");
+}
+</script>
+</head>
+<body>
+<input type="button" value="submit" onclick="input('Rishi','TGPCET','JavaScript','CSE',80)">
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+

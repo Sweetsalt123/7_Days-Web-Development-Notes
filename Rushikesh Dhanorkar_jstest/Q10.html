@@ -1,0 +1,82 @@
+ 
+ <html>
+    <head>
+	<style  type="text/css">
+	 input[type=text], select {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  position:center;
+  align: center;
+}
+
+input[type=submit] {
+  width: 20%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+div {
+  border-radius: 10px;
+  background-color: #f2f2f2;
+  padding: 20px;
+
+}
+
+	</style>
+        <script language="JavaScript">
+	       name1,result1;
+		function display()
+            {
+                var name = document.getElementById('name').value;
+				var amount = parseInt(document.getElementById('amount').value);
+				var gst = parseInt(document.getElementById('gst').value);
+				gst=amount/gst;
+				var  result= amount+gst;
+				result= parseInt(document.getElementById('result').value=result);
+				name1=name;
+				result1=result;
+             
+            }
+			function show()
+			{
+			   document.write("Dear User"+"<br>"+name1+"<br>"+" Your Gst Bill Is :"+result1);
+			}
+		    </script>
+    </head>
+    <body>
+	<div>
+    <label for="name"> Enter Name</label>
+    <input type="text" id="name" name="firstname" placeholder="Enter Any Number">
+   <br>
+   <label for="amount"> Enter Amount </label>
+    <input type="text" id="amount" name="firstname" placeholder="Enter Any amount">
+   <br>
+   <label for="gst"> GST</label>
+    <input type="text" id="gst" name="firstname" placeholder="Enter GST">
+   <br>
+	<label for="result">Total Amount </label>
+    <input type="text" id="result" name="grade" placeholder="">
+  <br>
+    <input type="Submit" value="submit" onclick="display()">
+	<input type="Submit" value="show" onclick="show()">
+	
+  </form>
+</div>
+		</body>
+	</html>
+	
+		

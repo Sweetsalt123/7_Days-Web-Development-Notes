@@ -1,0 +1,98 @@
+<html>
+<head>
+<script langauge="JavaScript">
+var name1,city1,email1,mob1,state1,country1,college1,sem1,branch1,address1;
+function input()
+{ var name,city,email,mob,state,country,college,sem,branch,address;
+//get from form page
+name=document.getElementById("t1").value;
+city=document.getElementById("t2").value;
+email=document.getElementById("t3").value;
+mob=document.getElementById("t4").value;
+state=document.getElementById("t5").value;
+country=document.getElementById("t6").value;
+college=document.getElementById("t7").value;
+sem=document.getElementById("t8").value;
+branch=document.getElementById("t9").value;
+address=document.getElementById("t10").value;
+
+// declare global /pass for print
+name1=name;
+city1=city;
+email1=email;
+mob1=mob;
+state1=state;
+country1=country;
+college1=college;
+sem1=sem;
+branch1=branch1;
+address1=address;
+
+
+
+display();
+  
+ }
+
+function display()
+{
+ document.write(name1+"<br>");
+  document.write(city1+"<br>");
+   document.write(email1+"<br>");
+    document.write(mob1+"<br>");
+	 document.write(state1+"<br>");
+	  document.write(country1+"<br>");
+	   document.write(college1+"<br>");
+	    document.write(sem1+"<br>");
+		 document.write(branch1+"<br>");
+		  document.write(address1+"<br>");
+   
+
+ 
+}
+
+</script>
+</head>
+<body>
+ Enter your Name <br>
+ <input type"text" id="t1">
+ <br>
+   Enter your city <br> 
+ <input type"text" id="t2">
+ <br>
+  Enter your  Email  <br>
+ <input type"text" id="t3">
+ <br>
+  Enter  your  mobile<br>
+ <input type"text" id="t4">
+  <br>
+    Enter your state<br>
+ <input type"text" id="t5">
+  <br>
+  Enter  your  country<br>
+ <input type"text" id="t6">
+  <br>
+   Enter your college<br>
+ <input type"text" id="t7">
+  <br>
+  Enter your sem<br>
+ <input type"text" id="t8">
+  <br>
+  Enter your Branch<br>
+ <input type"text" id="t9">
+  <br>
+  Enter your address<br>
+ <input type"text" id="t10">
+  <br>
+  
+  
+  
+
+ <br>
+ <input type="button" value="submit" onclick="input()">
+ <br>
+ 
+ 
+ 
+</body>
+</html>

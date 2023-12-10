@@ -1,0 +1,26 @@
+<html>
+<head>
+<script language="JavaScript">
+ function basicinfo(name,city,email,mob,state,country,college,sem,branch,address)
+ {
+ document.getElementById("p1").innerHTML=" I am "+ name +" My City is "+ city +" this is my email id"+ email +"Mobile NUnmber is "+mob+"I am from "+ state + country;
+ college1=college;
+ sem1=sem;
+ branch1=branch;
+ address1=address;
+ qualification();
+
+ }
+ function qualification()
+ {
+ document.getElementById("p2").innerHTML="My collage Name is"+ college1 +"Currently in semster"+ sem1 +"from branch"+  branch1 + address1;
+ }
+</script>
+</head>
+<body>
+<p id="p1"> </p>
+<p id="p2"> </p>
+<br>
+<input type="button" value="submit" onclick="basicinfo('Rishi','NGP','dhruvdhanorkar@gail.com','8551064940','MH','India','TGPCET',8,'CSE','Nagpur')">
+</body>
+</html>

@@ -1,0 +1,461 @@
+-----  javascript  -------
+1.javascript is used to inside the html
+2.is case sentetive langauge
+3.inside the head tag.
+
+structure of javascript :
+<html>
+<head>
+<script langauge="javascript">  // output window is document window
+--- create all logic----
+
+</script>
+
+</head>
+</html>
+
+javascript Statements:
+
+main(){   //body of statement
+
+ statement
+ 
+ }
+ if/if else/ while.....
+ {
+ 
+ statement   // block of statement
+ 
+ }
+ 
+ display()
+ {
+ 
+ statement   // container statement
+ 
+ }
+
+
+javascript Statements:
+1.output statement  
+
+
+inside the script cannot used any types of html tag
+
+<html>
+<head> 
+<script langauge="Javascript">
+document.write(" Welcome to my webpage" +"<br>"); // for output
+document.write("Nagpur city");
+alert("this is alert Box"); // for alert in program
+confirm("this is COnform statement"); // confirm message
+prompt("Enter Your name"); // input box
+
+</script>
+
+</head>
+</html>
+
+javascript Variable:
+1.variable is name of memory location where user can store different types of data value.
+2.types of variable
+  I.varient using data type 
+  ex: int a, int b
+  II. non varient depend on data value 
+  ex: a=10, b=20
+  
+variable property :
+a=10
+print a;
+b=20;
+b=30;
+print b;  // overwrite property
+
+variable Terminology :
+
+ex : a=10;   //intialization   (variable with value)
+     b  ;    // decleration   (only name of the variable)
+	 
+variable Scope :
+1.Local variable  (inside the program)
+2.Global variable  (outside the program)
+
+how to create variable in javascript ?
+using var keyword
+
+snytax: var name;
+        var a;
+		var city
+
+cascading is combination of message  + variable value
+
+<html>
+<head>
+<script language="JavaScript">
+var a=10;
+document.write(a+"<br>");
+document.write(" the value of a :"+a);
+
+
+</script>
+</head>
+</html>
+
+User Input Concept
+ 
+<html>
+<head>
+<script language="JavaScript">
+var a ;
+ a= prompt("Enter any Number");
+ b=prompt("Enter any Number");
+ c=a+b;
+ document.write(c);
+</script>
+</head>
+</html>
+
+
+how to accept numerical data ?
+
+parseInt();
+
+<html>
+<head>
+<script language="JavaScript">
+ var a,b,c;
+ a=parseInt(prompt("Enter any Number"));
+ b=parseInt(prompt("Enter any Number"));
+ c=a+b;
+ document.write(c);
+ 
+</script>
+</head>
+</html>
+
+
+Assignment 1:
+
+ Write a Program to Generate Following result.
+ input following information from the uaer
+ name
+ city
+ state
+ country
+ mobile
+ email
+ college
+ subject  mark 1
+          mark 2
+		  mark 3
+		  mark 4
+		  mark 5
+ 
+ logic 1: input all data from user 
+       2: display all information on PC with total.
+	   3: display Name city state in Red color ( using <font> in document.write statement.)
+	   
+	   4: Genarate The total if all subject Mark >40. // Assignment 2
+	   
+Program Management:
+	1.Condition management
+	2.Flow management (looping)
+	
+1.condition management
+  <html>
+  <head>
+  <script langauage="Javascript">
+  
+     var age;
+    age=parseInt(prompt("Enter Your age"));
+    if(age>18)
+	{
+	document.write("You can vote");
+	}
+	else
+	{
+	document.write("you cannot Vote");
+	}
+	
+  </script>
+  </head>
+  </html>
+  
+  
+  input % from the user and check the following condition
+  per>60 // first division
+  per>50 & per<60 second division
+  per>40 & per<50 third division
+  othervise fail 
+ 
+ 
+ 
+ Assignment 3 :
+ Genarate the following result
+ input following Information from the user :
+ 
+ name 
+ org
+ designation
+ salary
+ HRA
+ DA
+ city
+ 
+ 
+  logic 1: calculate total salary (salary+HRA+DA)
+  logic 2: check the following condition
+              total_salary > 5000- display  % 5 of  only salary amount
+			  total_salary > 2000 and total_salary < 5000  display 2% salary amount
+			  otherwise display wait for next approval.
+  
+  
+Switch Case Statement :
+ Case is part of Program
+ switch case is generally used to option base technology
+ 
+ Assignment 4
+  Enter two number from the user and perform the following operation using switch case statement
+  choice = 1
+  the perform addition of two number>
+  choice =2 then perform multiplication of two number
+  choice =3 then perform subcription of two number.
+ 
+Looping/itreantion Statement:
+1. Variable loop (while do and for)
+2. object loop   (foreach)
+
+Loop Variable :
+  looping is used to Counter Variable.
+Ex:
+ i=1;
+ i<10;
+ i++;
+ 
+ 1. while loop
+ While loop is entry control loop 
+ 
+<html>
+<head>
+<script language="JavaScript">
+ var i=11;
+  while(i<=10)
+  {
+   document.write(i+"<br>");
+   i=i+1;
+  }
+</script>
+</head>
+</html>
+
+2.do While
+
+<html>
+<head>
+<script language="JavaScript">
+ var i=11;
+ do
+ {
+   document.write(i+ "<br>");
+   i=i+1;
+   }
+  while(i<=10);
+  
+</script>
+</head>
+</html>
+
+
+3. For Loop (Single Line Loop)
+<html>
+<head>
+<script language="JavaScript">
+ var i;
+ for(i=1;i<=10;i++)
+ {
+ document.write(i+"<br>");
+ }
+ 
+</script>
+</head>
+</html>
+
+Assignment 5:
+Input Any Number From User And Display Table of Given Number in Following formate
+ 1. 2*1 =2 till 10 (table using while do and for)
+ 2.
+ 
+ JavaScript Function :
+Function is small jobs Program.
+
+Function Seprator:
+What is Seprator ?
+1. a,b          - Variable Seprator (,)
+2. if (a>b)     - Block Seprator{ }
+{
+ a
+}
+
+3. display ();  - Function Seprator
+4. b[]          - Array Seprator
+
+how to create Function ?
+ Snytax :
+  Function name()
+  {
+     // Container Statement 
+  }
+  
+  Types of function
+  1. User define Function /  Extrensic Function
+  2. Bulltin function / Intrensic Function
+  
+  How to access Function?
+  
+  
+  display();   // (;) Function Calling operater
+  
+  1. Acces any type of function inside the JavaScript Using Button Control 
+  with help of click event.
+  
+  <input type ="Button" value ="submit" onclick="functionName()">
+  
+  2.on keyword is used to Activate the Event
+  3. function approch - Bottomup
+  
+  
+How to Acces Multiple Function ?
+
+Function within a Function concept // call another function inside the Function.
+
+
+
+<html>
+<head>
+<script language="JavaScript">
+function display()
+{
+document.write("This is my First Program");
+show();
+}
+function show()
+{
+ document.write("This is show function");
+</script>
+</head>
+<body>
+
+<input type="button" value="submit" onclick="display()">
+</body>
+</html>
+
+
+Assignment 1:
+
+genarate the following result using function concept :
+1.create a function basicinfo()
+display following information:
+( name,city,email,mobile,state,country)
+2.create a function- qualification()
+display following information (college ,semister,branch,address)
+3.create a function experiance()
+display following information (company,designation ,salary, joinning)
+
+Function Parameter / argument 
+parameter is speacil types of data used inside function seprator
+
+display(a)   //a is called parameter
+
+
+
+ Types of parameter:
+1. sender parameter  / actual parameter
+2. Receiver parameter / formal parameter
+
+1. Sender parameter -> (at the time of function calling Button event)
+2. Receiver Parameter -> (At the time of Function Creation )
+
+function display(a)
+{
+
+}
+
+
+how to create multiple parameter ?
+
+<html>
+<head>
+<script language="JavaScript">
+function display (age,name)
+{
+   document.write(age+"<br>"+name);
+}
+</script>
+</head>
+<body>
+<input type="button" value="submit" onclick="display(20,'rishi')";
+</body>
+</html>
+
+
+Assignemnt 2:
+ create a function - input()
+ except following parameter (name,city,college,branch,per)
+ logic 1. check the following condition
+        per>60 A grade
+		per>50 and per<60 B Grade
+		per>40 and per<50 C garde
+		otherwise Fail
+		
+ logic 2. display all information with Grade
+ 
+ local and global Variable concept:
+ 1. local  Variable  only used inside the Program
+ 2. Global Variable  Outside the Program
+    
+	
+	Assignemnt 3:
+	create a function input() expect following parameter - 
+	1.name , city,college,m1,m2,m3m,m4,m5
+	create a function display()
+	
+	logic 1. display all information using display function.
+	      2. calculate the total inside display()
+		  3. check the following condition
+		  if total >250 then display 1st division
+		  total  >100 and <250  display second division
+		  otherwise fail.
+		  
+		  
+		  Assignemnt 4:
+		 1. create a function input()
+		  exept following parameter(name,college,subject,branch,per)
+		  
+		 2. create a function grade
+		  except only per data value  then check following condition
+		  if per >60 - A grade
+		  per > 50 and <60 B garde
+		  otherwise Fail
+		  
+		  3.create a function display()
+		print all the information using display function.
+		
+		
+IMP		  
+ how to access Any type of HTML tag inside the JavaScript.
+ provide Id Attribute
+ ex:
+  <p id="aatribute"></p>
+  <font id="f1"></font>
+  <b id="b1"></b>
+  
+ Acces all tag inside the JavaScript with help of Id Attributes using 
+ getElementById("Id");
+ 
+ getElementById("p1");
+ getElementById("f1");
+ getElementById("b1");
+ 
+ 
+
+ 

@@ -1,0 +1,75 @@
+ 
+ <html>
+    <head>
+	<style  type="text/css">
+	 input[type=text], select 
+	 {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 20%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+div {
+  border-radius: 10px;
+  background-color: #f2f2f2;
+  padding: 20px;
+
+}
+
+	</style>
+        <script language="JavaScript">
+	
+		  function replace()
+            {
+                var str = document.getElementById('t2').value;
+                var firstWord = document.getElementById('t3').value;
+                var secondWord = document.getElementById('t4').value;
+                document.getElementById('r2').value=str.replace(firstWord,secondWord);
+               
+            }
+		    </script>
+    </head>
+    <body>
+	<div>
+	<center>
+      Enter your Message:
+        <input type="text"  id="t2">
+        <br>
+        Enter a word you want to replace:
+        
+        <input type="text"  id="t3">
+        <br>
+        Enter a word you want to replace with:
+      
+        <input type="text"  id="t4">
+        <br>
+        Your data is:
+      
+        <input type="text"  id="r2">
+        <br>
+        <button onclick="replace()">Replace</button>
+		</center>
+</div>
+		</body>
+	</html>
+	
+		

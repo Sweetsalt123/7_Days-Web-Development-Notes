@@ -1,0 +1,30 @@
+Internal Css 
+1.CSS is used to inside HTML page
+2.Extension of internal css (.html)
+
+sctrcture of Css
+<html>
+<head>
+<style type="text/css">
+create
+ css
+ </style>
+ </head>
+ </html>
+ 
+ 
+ Methods of Internal Css:
+ 1.tag Name Method 
+ 2.class method
+ 
+ 1. tagName Method:
+ tagname()
+ {
+    atrribute;
+	
+ }
+ ex
+ font
+ {
+  color:red;
+  }

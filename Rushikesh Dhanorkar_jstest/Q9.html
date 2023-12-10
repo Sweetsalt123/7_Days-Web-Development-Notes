@@ -1,0 +1,116 @@
+<html>
+  <head>
+    <script language="JavaScript">
+        var grade , total;
+      function display(name,college,branch,m1,m2,m3,m4,m5)
+      {
+        document.write("Name : " + name + "<br>"+"College : " + college + "<br>" + "Branch : " + branch + "<br>" + "Mark1 : " + m1 + "<br>" + "Mark2 : " + m2 + "<br>" + "Mark3 : " + m3 + "<br>" + "Mark4 : " + m4 + "<br>" + "Mark5 : " + m5 + "<br>" + "Total : " + total + "<br>" + "Grade : " + grade + "<br>")
+      }
+      function calculate(m1,m2,m3,m4,m5)
+      {
+           total = parseInt(m1)+parseInt(m2)+parseInt(m3)+parseInt(m4)+parseInt(m5);
+          document.getElementById('total').value = total;
+
+          if(total > 250)
+          {
+              grade="A grade";
+              document.getElementById('grade').value = "A grade";
+          }
+          else if(total > 150 && total < 250)
+          {
+              grade = "B grade";
+              document.getElementById('grade').value = "B grade";
+          }
+          else
+          {
+              grade = "Fail";
+              document.getElementById('grade').value = "Fail";
+          }
+      }
+    </script>
+    <style>
+        input[type=text], select {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 20%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+div {
+  border-radius: 10px;
+  background-color: #f2f2f2;
+  padding: 20px;
+
+}
+
+    </style>
+  </head>
+  <body>
+  <div>
+    <center>
+      <h3>Grade form</h3>
+      <label>Student Name :</label>
+      <input type="text" id="name" />
+      <br />
+      <br />
+      <label>College Name :</label>
+      <input type="text" id="college" />
+      <br />
+      <br />
+      <label>Branch :</label>
+      <input type="text" id="branch" />
+      <br />
+      <br />
+      <label>Mark1 :</label>
+      <input type="text" id="m1" />
+      <br />
+      <br />
+      <label>Mark2 :</label>
+      <input type="text" id="m2" />
+      <br />
+      <br />
+      <label>Mark3 :</label>
+      <input type="text" id="m3" />
+      <br />
+      <br />
+      <label>Mark4 :</label>
+      <input type="text" id="m4" />
+      <br />
+      <br />
+      <label>Mark5:</label>
+      <input type="text" id="m5" />
+      <br />
+      <br />
+      <label>Total :</label>
+      <input type="text" id="total" />
+      <br />
+      <br />
+      <label>Grade :</label>
+      <input type="text" id="grade" />
+      <br />
+      <br />
+	  <input type="Submit" value="Submit" onclick="calculate(document.getElementById('m1').value , document.getElementById('m2').value,document.getElementById('m3').value,document.getElementById('m4').value,document.getElementById('m5').value)")>
+		 <input type="Submit" value="show" onclick="display(document.getElementById('name').value,document.getElementById('college').value,document.getElementById('branch').value,document.getElementById('m1').value , document.getElementById('m2').value,document.getElementById('m3').value,document.getElementById('m4').value,document.getElementById('m5').value)">
+     
+    </center>
+	</div>
+  </body>
+</html>

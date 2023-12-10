@@ -1,0 +1,80 @@
+.college
+{
+        border: 1px solid black;
+        height: 100px;
+        width: 200px;
+		position: absolute;
+        padding: 10px;
+}
+.city
+{
+ border: 1px solid black;
+        height: 100px;
+        width: 200px;
+        padding: 10px;
+        position: absolute;
+        top: 10px;
+        right: 10px;
+}
+.college1
+{
+        border: 1px solid black;
+        height: 100px;
+        width: 1010px;
+        padding: 10px;
+        position: absolute;
+        top: 10px;
+        left: 250px;
+}
+.course
+{
+    border: 1px solid black;
+        height: 380px;
+        width: 200px;
+		position: absolute;
+        padding: 10px;
+        margin-top: 90px;
+}
+.branch
+{
+   border: 1px solid black;
+        height: 380px;
+        width: 200px;
+        padding: 10px;
+        margin-top: 20px;
+        position: absolute;
+        top: 130px;
+        right: 10px;
+}
+.director
+{
+ border: 1px solid black;
+        height: 100px;
+        width: 200px;
+        padding: 10px;
+        position: absolute;
+        left: 250px;
+        top: 150px;
+}
+.paragraph
+{
+   border: 1px solid black;
+        height: 100px;
+        width: 770px;
+        padding: 10px;
+        position: absolute;
+        left: 490px;
+        top: 150px;
+}
+.develop
+{
+ border: 1px solid black;
+    height: 100px;
+    width: 97%;
+    padding: 10px;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    right: 10px;
+    text-align: center;
+}

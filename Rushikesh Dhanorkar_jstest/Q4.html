@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <link href="Q4.css" rel="stylesheet" type="text/css">
+ <script langauge="JavaScript">
+ function addition(num1, num2)
+            {
+                
+            
+                var result = parseInt(num1)+parseInt(num2);
+                document.getElementById("result").value = result;
+            }
+
+            function multi(num1, num2)
+            {
+              
+            
+                var result =parseInt( num1)*parseInt(num2);
+                document.getElementById("result").value = result;
+            }
+
+            function sub(num1, num2)
+            {
+                
+            
+                 var result =parseInt(num1)-parseInt(num2);
+                document.getElementById("result").value = result;
+            }
+
+
+</script>
+</head>
+<body>
+
+<h3>Fill The Form</h3>
+
+<div>
+    <label for="num1"> Enter Any Number</label>
+    <input type="text" id="num1" name="firstname" placeholder="Enter Any Number">
+   <br>
+    <label for="num2">Enter Any Number</label>
+    <input type="text" id="num2" name="lastname" placeholder="Enter Any Number">
+	<br>
+	<label for="result">Result of  Number </label>
+    <input type="text" id="result" name="grade" placeholder="">
+  <br>
+    <input type="Submit" value="Add button" onclick="addition(document.getElementById('num1').value, document.getElementById('num2').value)">
+	<input type="Submit" value="Multi" onclick="multi(document.getElementById('num1').value,document.getElementById('num2').value)">
+	<input type="Submit" value="SUb" onclick="sub(document.getElementById('num1').value,document.getElementById('num2').value)">
+  </form>
+</div>
+
+</body>
+</html>

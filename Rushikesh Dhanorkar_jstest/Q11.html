@@ -1,0 +1,59 @@
+<html>
+  <head>
+    <script language="JavaScript">
+        var age,result1;
+        function calculate()
+        {
+            var age = document.getElementById('age').value;
+			if(age>18)
+			{
+			 result1=document.getElementById('result').value="Your Are Eligible";
+			}
+			else
+			{
+			   result1= document.getElementById('result').value="Your Are Not Eligible";
+			}
+        }
+		function show()
+		{
+		  document.write("Result for Driving:"+  result1);
+		}
+    </script>
+    <style>
+        h3
+        {
+            color: blue;
+        }
+        button
+        {
+            border: none;
+            outline: none;
+            padding: 10px 20px;
+            color : white ;
+            cursor: pointer;
+            border-radius: 20px;
+            background-color: blue;
+        }
+    </style>
+  </head>
+  <body>
+    <center>
+      <h3>Eliblity for Licence</h3>
+      <label>Enter Name :</label>
+      <input type="text" id="name" />
+      <br >
+      <br >
+      <label>Enter Age :</label>
+      <input type="text" id="age" />
+      <br>
+      <br>
+      
+      <label>Result  :</label>
+      <input type="text" id="result" />
+      <br>
+      <br>
+      <button onclick="calculate()">Calculate</button>
+      <button onclick="show()">Show</button>
+    </center>
+  </body>
+</html>

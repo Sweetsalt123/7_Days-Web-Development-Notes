@@ -1,0 +1,2337 @@
+Date:20-11-2023
+
+
+HTML-
+Hyper text Markup Language
+Hyyper is epresenting next location.
+ex:Home,About,etc.
+
+What is text?
+Text is a collection of number, character or symbols.
+ex:123,ABC,etc.
+
+What is markup Language?
+Markup is a library it content definations of tags.(HTML cannot used compiler.)
+
+
+Categories of Programming:
+1.Code based programming(Based on code)
+2.Form based(Tools)
+
+HTML Syntax-(Tag)
+<>-Tag
+<b>-bold tag
+<u>-underline tag
+<font>-
+
+Types of Tags-
+1.Open tag- <>-<b>
+2.Close tag- <> </>
+ex:<u> </u>-close tag
+
+ex:<i> </i>
+Tag closing operator-(/)
+
+HTML Structured:
+<html>
+<body>
+
+--all tag--
+
+</body>
+</html>
+
+<html>-representing web browser.
+<body>-representing output location.
+
+How to create first html program?
+Ans:1.Create your directory (folder).
+Development directory cannot be used space.
+
+Any types of message is called inner html.
+
+
+<html>
+<body>
+	<font>Welcome to my program.</font>
+
+</body>
+</html>
+
+HTML Linking/ Navigation-
+<a></a>-anchor tag
+Drawback-it not manage the web page.
+
+<html>
+<body>
+	HTML Linking:
+	<br>
+	<a href="form.html" target="_blank">Visit my Web page.</a>
+
+
+	How to set link location?
+	Ans:Using target attribute 
+
+</body>
+</html>
+
+Page Management in HTML-
+1.Using <iframe>-interface framing.
+2.Attribute of <iframe>:
+1.Height
+2.Width
+3.Name
+
+<html>
+<body>
+	Page Management:
+	<br>
+	<a href="first.html" target="f1">First page</a>
+	&nbsp;&nbsp;&nbsp;
+	<a href="form.html" target="f1">My form</a>
+	&nbsp;&nbsp;&nbsp;
+	<a href="link.html" target="f1">Navigation</a>
+	<br>
+	<iframe height="500" width="700" name="f1">
+
+
+</body>
+</html>
+
+Form:
+<html>
+<body>
+	<form>
+		Enter your name:
+		<input type="text" >
+		<br>
+		Enter your Password:
+		<input type="password" >
+		<br>
+		Your cast is 
+		<input type="radio" >
+		<br>
+		Your subject is
+		<input type="checkbox" >
+		<br>
+		Select your city:
+		<select>
+			<option>Nagpur</option>
+			<option>Pune</option>
+			<option>Mumbai</option>
+		</select>
+		<br>
+		Write your review:
+		<textarea>Comment here...</textarea>
+		<br>
+		<input type="button" value="Submit">
+		<br>
+		<button>Update</button>
+
+
+	</form>
+	Text box work on single line.
+
+</body>
+</html>
+
+Assigment 1:
+Create a web page in following format.
+1.Center of the screen-your name.
+2.Center of the screen-College name.
+3.Center of the screen-Email id.
+4.Center of the screen-mobile number.
+5.Display horizontal line.
+6.Center of the screen biodata.
+7.Qualification-bold,itali,underline.
+8.
+1.ug
+	.ug1
+	.Diploma
+2.pg
+	.pg1
+	.other certification
+9.Display horizontal line.
+10.Center of the screen-Developed by your name.
+
+HTML Image Handling-
+1.Background image
+2.fourground image
+
+using <img>-
+
+<html>
+<body bgcolor="yellow">
+	<img src="p1.jpg" height="200" width="200" border="5">
+
+
+
+
+
+	-----------------------------------------
+	<img> is used to fourground img concept.
+</body>
+</html>
+
+Assigment 2:
+Title-My Nagpur
+1.About.html(introduction nagpur with image)
+2.Tourist.html(tourist photo with details)
+3.Government.html(government offices with details)
+4.Colleges.html(college details)
+5.Contact.html(create a form
+name-textbox
+email-textbox
+mobile-textbox
+message-textarea
+city-dropdown list
+button-submit button
+
+Logic:
+Connect your google map with address(using <a>).
+6.Homepage.html
+Center of the screen-My Nagpur
+Center of the screen-Your name
+Horizontal line
+Horizontal navigation:
+About	Tourist  Government  Colleges   Contact
+
+Create iframe full screen
+All page display inside the <iframe>
+
+
+Assigment 3:
+Create your biodata including all concept.(single page)
+
+Email id:nrsolution4u.student@gmail.com
+
+Variable
+Looping
+Condition
+Function
+
+Varient and non-varient:
+1.Varient variable(depend on data type)
+ex:int a;
+
+2.Non-varient variable(depend on value)(js works on.)
+ex:a=5;
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Date:21-11-2023
+
+JavaScript-
+
+1.Javascript is used to inside the html.
+2.Javascript is a case sensetive language.
+3.Scripting is used inside the <head>.
+
+Structure of Javascript:
+
+<html>
+<head>
+<script language="JavaScript">
+	----Create all logic-----
+	
+
+
+
+
+
+</script>
+
+
+
+</head>
+</html>
+
+JavaScript Statement
+
+main()
+{
+Statement	/Body of statement/
+
+}
+
+if/if else/while---
+{
+Statement	/Block of statement/		
+
+}
+
+
+Display()
+{
+Staement	/Container statement/
+}
+
+JavaScript Statement-
+1.Output statement -output window is called document window.
+
+<html>
+<head>
+	<script language=""JavaScript>
+		document.write("Welcome to my program");
+		alert("This is alert box");
+		confirm("This is confirm statement");
+		prompt("Enter your name");
+	</script>
+
+</head>
+</html>
+
+Inside the script cannot used any types of <html>.
+
+JavaScript Variable-
+1.Variable is a name of memory location where user can store different types of data value.
+2Types of variable-
+1.Variet variable-using data type(ex:int a, int b )
+2.Non-varient variable-depend on data value(ex:a=10, b=20)
+
+IMP--
+Variable Property-(Overwrite)
+ex:
+	a=10
+	print a;
+	b=20
+	b=30
+	print b;
+
+IMP--
+Variable Terminology-
+ex:
+	a=10           //intialization//
+	Variable with value
+
+	b=20
+	b             //Declaration//
+	only name of the variable
+
+IMP--
+Variable Scope-
+1.Local variable(inside the program)
+2.Global variable(outside the program)
+
+How to create variable in JavaScript?
+Ans:Using var keyword
+Syntax:
+	var name;
+	
+ex: var a;
+ex: var city;
+
+Cascading is a combination of message + variable value.
+
+<html>
+<head>
+	<script language="JavaScript">
+	
+		var a=10;
+		document.write(a + "<br>");
+		document.write("The value of a" + a);
+			
+	</script>
+
+
+</head>
+</html>
+
+User input concept-
+<html>
+<head>
+	<script language="JavaScript">
+		var a,b,c;
+	
+		a=prompt("Enter any number");
+		b=prompt("Enter any number");
+		c=a+b;
+		document.write(c);
+
+
+	</script>
+
+</head>
+</html>
+
+How to accept numerical data?
+Ans:parseInt();
+
+<html>
+<head>
+	<script language="JavaScript">
+		var a,b,c;
+		a=parseInt(prompt("Enter any number"));
+		b=parseInt(prompt("Enter any number"));
+		c=a+b;
+		document.write(c);
+
+	</script>
+
+</head>
+</html>
+
+Assigment 1:
+1.Write a program to generate following result.
+input following information from the user.
+name
+city
+state
+country
+Mobile
+Email
+College
+Subject
+Mark1
+Mark2
+Mark3
+Mark4
+Mark5
+
+logic--
+1.input all data from the user
+2.Display all information on computer screen with specific total
+3.Display name,city,state in red color(using <font> in document.write statement)
+4.Generate the total if all subject mark > 40.(Assigment 2)
+
+Program Management-
+1.Condition management
+2.Flow(looping) management
+
+<html>
+<head>
+	<script language="JavaScript">
+
+		var age;
+		age=parseInt(prompt("Enter your age"));
+		if(age>18)
+		{
+			document.write("You can vote");	
+
+		}
+		else
+		{
+			document.write("You can not vote");
+		}
+
+	</script>
+
+</head>
+</html>
+
+Input % from the user and check the following condition.
+per > 60 //fd//
+per > 50 and per < 60 //sd//
+per > 40 and per < 50 //td//
+otherwise fail
+
+
+
+
+<html>
+<head>
+	<script language="JavaScript">
+
+		var per;
+		per=parseInt(prompt("Enter your percantage"));
+		if(per > 60)
+		{
+			document.write("first division");
+		}
+		else if(per >= 50 && per < 60)
+		{
+			document.write("second division");
+		}
+		else if(per > 40 && per < 50)
+		{
+			document.write("third division");
+		}
+		else
+		{
+			document.write("otherwise fail");
+		}
+
+
+	</script>
+
+</head>
+</html>
+
+Assigment 3:
+Generate the following result:
+input following information from the user
+name
+org
+Desg
+salary
+HRA
+DA
+city
+
+logic--
+1.calculate total salary = salary+ HRA+DA
+2.check the following condition
+total_salary >  5000- display 5% of salary amount
+total_salary > 2000 and total_salary < 5000- display 2% salary amount
+otherwise display wait for next approval.
+
+Switch case Statement-
+
+Case is a part of program.
+Switch case is generally used to option based programming.
+
+<html>
+<head>
+
+	<script language="JavaScript">
+
+		var ch;
+		ch=parseInt(prompt("enter the choice"));
+		switch(ch)
+		{
+
+			case 1: document.write("one");
+				break;
+			case 2: document.write("two");
+				break;
+
+			case 3: document.write("three");
+				break;
+			default: document.write("invalid choice");
+				break;
+
+		}
+
+	</script>
+</head>
+</html>
+
+
+
+Assigment 4:
+
+Input two number from the user and perform the following operation using switch case statement.
+choice=1 then perform addition of two number > choice=2 then perform multiplication of two number
+choice=3 then perform substraction of two number
+
+Looping-
+Looping is called iteration statement.
+
+Types of looping:
+1.Variable loop- while, do,and for.
+2.Object loop - foreach.
+
+IMP---
+Loop variable-
+Ex: 	i=1;
+	i<=10;
+	i++;
+
+Looping is used to counter variable.
+
+1.while loop -entry control loop
+
+<html>
+<head>
+	<script language="JavaScript">
+
+		var i=11;
+		while(i<=10)
+		{
+			document.write(i +"<br>");
+			i=i+1;
+		}
+
+	</script>
+
+</head>
+</html>
+
+Do While loop-
+
+<html>
+<head>
+	<script language="JavaScript">
+
+		var i=1;
+		do
+		{
+			document.write(i + "<br>");
+			i=i+1;
+		}
+		while(i<=10);
+
+	</script>
+
+</head>
+</html>
+
+
+For loop-single line loop
+
+<html>
+<head>
+	<script language="JavaScript">
+
+		var i;
+		for(i=1; i<=10; i++)
+		{
+			document.write(i + "<br>");
+		}
+
+	</script>
+
+</head>
+</html>
+
+
+Assigment 5:
+input any number from the user and display table of given number in following format:
+2*1=2 till 10
+(while,do,for)
+--------------------------------------------------------------------------------
+Date:22-11-2023
+
+JavaScript Function-
+Function is a small jobs program.
+
+IMP--
+Function Seperator-
+a,b
+1.variable seperator-(,)
+2.block seperator-{}
+if (a>b)-
+{
+	a
+}
+
+3.Display()-Function seperator
+
+4.b[]-Array seperator
+
+How to create function?
+Ans:syntax:
+	
+	function name()
+	{
+		//container statement//
+		
+	}
+
+Types of function:
+1.User define function-extrensic function
+2.Builtin function-intrensic function
+
+How to access function?
+Ans:
+	display();
+
+semocolon(;) is call function calling operator.
+
+1.Access any types of function inside the JavaScript using button control with help of click event.
+	<input type="button" value="submit" onClick="functionName()">
+
+2.on keyword is used to activate the event
+
+3.Function approch- bottom-up
+
+How to access multiple function?
+Ans:using function within a function concept.
+
+<html>
+<head>
+	<script language="JavaScript">
+
+		function display()
+		{
+			document.write("this is my first program");
+			show();
+		
+
+		}
+		function show()
+		{
+			document.write("this is show function");
+		}
+	</script>
+
+</head>
+<body>
+	<input type="button" value="submit" onclick="display()">
+
+</body>
+</html>
+
+Assigment 1:
+Generate the following result using function concept
+1.create a function-basicinfo()
+Display following information(name,city,email,mobile,state,country).
+2.create a function-qualification()
+Display followig information(college,semister,branch,address)
+3.create a function-experience()
+Display following information(company,designation,salary,joining)
+
+IMP--
+Function Parameter/Argument
+
+ex:display(a)
+parameter is a special type of data used inside function seperator.
+a is calles parameter.
+
+Types of parameter:
+
+1.Sender parameter-actual parameter
+2.Receiver parameter-formal parameter
+
+1.Sender parameter(at the time of function calling)
+:button event
+
+2.Receiver parameter(at the time of function creation)
+ex: function display(a)
+	{
+		
+	}
+
+How to create multiple parameter?
+
+<html>
+<head>
+	<script language="JavaScript">
+		function display(age,name)
+		{
+			document.write(age + "<br>");
+			document.write(name);
+		}
+
+
+	</script>
+</head>
+<body>
+	<input type="button" value="submit" onclick="display(20,'Sakshi')">
+</body>
+</html>
+
+Assigment 2:
+1.create a function-input()
+except following parameter(name,city,college,branch,per)
+
+logic:
+1.check the following condition
+per > 60-A grade
+per > 50 && per < 60-B grade
+per > 40 && per < 50- C grade.
+otherwise fail
+
+2.Display all information with grade
+
+Local and Global variable concept-
+1.Local variable-
+Only used inside the program
+
+2.Global variable-
+Outside the program
+
+<html>
+<head>
+	<script language="JavaScript">
+		
+		var a1;
+		function input(a)			
+		{
+			a1=a;
+			display();
+
+		}
+		function display()
+		{
+			document.write(a1);
+		}
+
+	</script>
+</head>
+<body>
+	<input type="button" value="submit" onclick="input(10)">
+
+</body>
+</html>
+
+Assigment 3:
+1.create a function- input()
+except following parameter-name,city,college,m1,m2,m3,m4,m5
+create a function display()
+
+logic:
+1.display all information using display()
+2.calculate the total inside display()
+3.check the following condition:
+if total > 250 then display first division
+total > 100 && total < 250 then display second division
+otherwise display fail
+
+Assigment 4:
+1.create a function input()
+except following parameter(name,college,subject,branch,per)
+
+create a function grade()
+except only percent data value
+
+check the following condition:
+if per > 60-A grade
+per > 50 && per < 60-B grade
+otherwise fail
+
+create a function display()
+print all the information using display()
+
+IMP--
+How to access any type of html tags inside the JavaScript?
+Ans:1.Provide id attribute
+ex:
+<p id="p1"></p>
+ex:
+<font id="f1"></font>
+<b id="b1"></b>
+
+2.Access all tags inside the JavaScript with the help of id attribute using
+getElementById("id");
+getElemetById("p1");
+getElemetById("f1");
+getElemetById("b1");
+
+<html>
+<head>
+	<script language="JavaScript">
+
+		function display()
+		{
+			
+			document.getElementById("p1").innerHTML="Welcome";
+
+		}
+
+
+	</script>
+
+
+</head>
+<body>
+	<p id="p1"></p>
+	<br>
+	<input type="button" value="submit" onclick="display()">
+</body>
+</html>
+
+<html>
+<head>
+	<script language="JavaScript">
+
+		function display()
+		{
+			var a=10;
+			document.getElementById("p1").innerHTML=a;
+
+		}
+
+	</script>
+</head>
+<body>
+	<p id="p1"></p>
+	<br>
+	<input type="button" value="submit" onclick="display()">
+</body>
+</html>
+
+-----------------------------------------------------------------------------------------
+Date:23-11-2023
+
+How to used textbox control inside the JavaScript?
+1.Provide Id attribute
+2.Textbox is used to value method for excepting data
+
+<html>
+<head>
+	<script language="JavaScript">
+
+		function display()
+		{
+			var name;
+			name=document.getElementById("t1").value;
+			document.write(name);
+		
+
+
+		}
+
+
+	</script>
+
+</head>
+<body>
+	<input type="text" id="t1">
+	<br>
+	<input type="button" value="submit" onclick="display()">
+</body>
+</html>
+
+
+
+How to except numerical data using textbox?
+
+<html>
+<head>
+
+	<script language="JavaScript">
+
+		function display()
+		{
+			var a,b,c;
+			a=parseInt(document.getElementById("t1").value);
+			b=parseInt(document.getElementById("t2").value);
+			c=a+b;
+			document.getElementById("t3").value=c;
+
+
+		}
+
+
+	</script>
+
+</head>
+<body>
+	enter first number 
+	<br>
+	<input type="text" id="t1">
+	<br>
+	Enter second number
+	<br>
+	<input type="text" id="t2">
+	<br>
+	result is:
+	<br>
+	<input type="text" id="t3">
+	<br>
+	<input type="button" value="submit" onclick="display()">
+
+
+</body>
+</html>
+
+Assigment 1:
+create a function input()
+create a form in following format:
+enter your name-textbox
+enter your college-textbox
+enter your subject-textbox
+enter mark1-textbox
+enter mark2-textbox
+enter mark3-textbox
+enter mark4-textbox
+enter mark5-textbox
+total is=textbox
+your grade is-textbox
+button submit
+
+logic:
+1.calculate total
+2.display grade in following condition
+total > 250-A grade
+total > 150 && total < 250-B grade
+otherwise fail
+
+Assigment 2:
+convert all function assigment into textbox control
+no. of count-4
+----------------------------------------------------------------------------------------------------
+
+JavaScript string handling function:
+
+String is a group of character
+
+1.length
+2.replace()
+3.replaceAll()
+4.concat()
+5.upperCase()
+6.lowerCase()
+7.padStart()
+8.padEnd()
+Imp: replace ,replaceAll
+
+<html>
+<head>
+	<script language="JavaScript">
+
+		var city="nagpur";
+		document.write(city.length);
+
+
+	</script>
+
+
+
+
+</head>
+</html>
+
+<html>
+<head>
+	<script language="JavaScript">
+
+		var s1,s2;
+		s1="nagpur is a big city";
+		s2=s1.replace("nagpur","pune");
+		document.write(s2);
+
+
+	</script>
+
+
+</head>
+</html>
+
+
+<html>
+<head>
+	<script language="JavaScript">
+
+		var s1="nagpur is a big city";
+		document.write(s1.toUpperCase());
+
+	</script>
+
+
+</head>
+</html>
+
+<html>
+<head>
+	<script language="JavaScript">
+
+		var s1="nagpur";
+		var s2="city";
+		var s3=s1.concat(" ", s2);
+		document.write(s3);
+	</script>
+
+
+</head>
+</html>
+
+<html>
+<head>
+	<script language="JavaScript">
+
+		var s1="5";
+		var s2=s1.padStart(4,"*");
+		document.write(s2);
+		
+	</script>
+
+
+</head>
+</html>
+
+Assigment 3:
+create a form:
+enter your name-textbox
+button-lenght
+horizontal line
+enter your message-textbox
+enter your replace word-textbox
+button-replace()
+button-replaceAll()
+horizontal line
+enter your name-textbox
+enter your surname-textbox
+your data is -textbox
+button-concat()
+horizontal line
+enter your digit-textbox
+enter your symbol-textbox
+number of position-textbox
+button-padStart()
+button-padEnd()
+-----------------------------------------------------------
+JavaScript Object:
+
+DOM-document object model
+ex:document.write(),document.getElementById() it is called DOM
+
+BOM-bowser object model
+ex:window object
+
+<html>
+<head>
+	<script language="JavaScript">
+
+		function display()
+		{
+			window.open("string.html","","height=200,width=300");
+
+		}
+
+
+	</script>
+</head>
+<input type="button" value="show" onclick="display()">
+</html>
+
+<html>
+<head>
+	<script language="JavaScript">
+
+		function display()
+		{
+			window.print();
+
+		}
+
+
+	</script>
+</head>
+<input type="button" value="show" onclick="display()">
+</html>
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+1.HTML-
+html is used to page only
+html is used to disconnect architecture
+
+2.JavaScript
+
+3.CSS-cascading style sheet
+1.css is used to create a sheet
+2.All sheet is to be communicate multiple web pages(using cascading structure)
+3.html attribute is used to = operator
+ex:height="100"
+4.css attribute is used to : operator
+ex:height:100
+5.css is a collection of attribute
+
+Types of CSS:
+1.Internal
+2.External
+3.Inline
+4.cross css
+
+1.Inline CSS-
+inline css is used to <html> with style attribute
+
+Division tag-<div>-
+<div> is used to create architecture of website there are following attribute
+1.Id
+2.style
+	background-color
+	height
+	width
+	top
+	left
+	position
+	
+All types of numerical data represent (px).
+By default div is used to fix position-
+position=absolute(flexible)
+
+-------------------------------------------------------
+Date:24-11-2023
+
+Internal css
+1.Internal css is used to inside html page
+2.Extension of internal css(.html)
+3.structure of internal css
+<html>
+<head>
+	<style type="text/css">
+	<---create css--->
+
+
+	</style>
+
+
+</head>
+</html>
+
+4.Methods of internal css
+1.tag name method
+2.class method
+
+1.Tag name method-
+tagname
+{
+	attribute: ;
+
+}
+
+ex:	font
+	{
+	color:red;
+	}
+<html>
+<head>
+
+<style type="text/css">
+
+	font
+	{
+
+		color:red;
+
+	}
+	font
+	{
+		color:blue;
+
+	}
+
+
+</style>
+
+
+<head>
+<body>
+	<font>welcome</font>
+	<br>
+	<font>nagpur</font>
+</body>
+</html>
+
+Class method-
+In css all class is to be created using . operator-class indication operator(.)
+
+syntax:
+
+.classname
+{
+	attribute:;
+}
+
+ex:
+.my
+{
+	color:red;
+}
+
+
+How to access class inside the tag?
+Ans:using class attribute
+
+
+syntax:
+
+<tagname class="classname">
+
+ex:
+<font class="my"></font>
+
+
+
+<html>
+<head>
+	<style type="text/css">
+	.my
+	{
+		color:red;
+	}
+	.my1
+	{
+		color:blue;
+	}
+
+
+	</style>
+
+</head>
+<body>
+	<font class="my">welcome</font>
+	<br>
+	<font class="my1">nagpur</font>
+</body>
+</html>
+
+Assigment 1:
+convert all css assigment in class method.
+
+
+Internal method is used to in-page concept-
+user cannot share one page css to an other page.
+
+External CSS-
+
+1.external css is used to out page concept
+2.extension of external css (.css)
+IMP--
+3.external css cannot execute on web browser because is used to text format
+
+
+How to connect external css to html page?
+-using <link> 
+there are following attribute used in <link>
+1.href="external.css"
+2.rel="stylesheet"
+3.type="text/css"
+
+-<link> is used inside the <head>
+
+<html>
+<head>
+	<link href="external.css" rel="stylesheet" type="text/css">
+
+
+
+</head>
+<body>
+	<font class="my1">welcome</font>
+	<br>
+	<font class="my2">nagpur</font>
+	<br>
+	<font class="my3">pune</font>
+</body>
+</html>
+
+Assigment 2:
+convert all <div> assigment in external css
+
+
+Cross CSS-
+
+Task:
+create a task using css:
+enter name-text box
+city-dropdown list
+state-text box
+subject-text box
+m1-text box
+m2-text box
+m3-text box
+m4-text box
+m5-text box
+total-text box
+grade-text box
+button-submit
+
+Design forn using css-different pattern
+
+Imp topic-
+1.function
+2.getElementById()
+3.external css
+4.form designing(css)
+5.string handling function
+
+
+
+test using JvaScript
+monday-doubt session 
+C# programming
+
+url of blogger:rishidhanorkar.blogspot.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

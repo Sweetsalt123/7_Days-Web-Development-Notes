@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <link href="style.css" rel="stylesheet" type="text/css">
+ <script langauge="JavaScript">
+function display()
+{ var m1,m2,m3,m4,m5,total;
+
+m1= parseInt(document.getElementById("m1").value);
+m2= parseInt(document.getElementById("m2").value);
+m3= parseInt(document.getElementById("m3").value);
+m4= parseInt(document.getElementById("m4").value);
+m5= parseInt(document.getElementById("m5").value);
+total=m1+m2+m3+m4+m5;
+document.getElementById("total").value=total;
+
+if(total>250)
+{
+ document.getElementById("grade").value="A Grade";
+}
+else if(total >150 && total <250)
+{
+  document.getElementById("grade").value="B Grade";
+}
+else
+{
+ document.getElementById("grade").value="Fail";
+}
+   
+}
+
+</script>
+</head>
+<body>
+
+<h3>Fill The Form</h3>
+
+<div>
+    <label for="name"> Name</label>
+    <input type="text" id="name" name="firstname" placeholder="Enter Your Name">
+
+    <label for="College">College Name</label>
+    <input type="text" id="College" name="lastname" placeholder="Enter Your College..">
+	
+	<label for="City">City</label>
+    <select id="City" name="City">
+      <option value="Nagpur">Nagpur</option>
+      <option value="Mumbai">Mumbai</option>
+	  <option value="Pune">Pune</option>
+    </select>
+	
+	 <label for="subject">Subject</label>
+    <input type="text" id="lname" name="lastname" placeholder="Enter Your Subject">
+	
+	 <label for="m1">M1</label>
+    <input type="text" id="m1" name="lastname" placeholder="Enter Your M1">
+	
+	<label for="m2">M2</label>
+    <input type="text" id="m2" name="lastname" placeholder="Enter Your M2">
+	
+	<label for="m3">M3</label>
+    <input type="text" id="m3" name="lastname" placeholder="Enter Your M3">
+	
+	<label for="m4">M4</label>
+    <input type="text" id="m4" name="lastname" placeholder="Enter Your M4">
+	
+	<label for="m5">M5</label>
+    <input type="text" id="m5" name="lastname" placeholder="Enter Your M5">
+	
+<label for="total">Total</label>
+    <input type="text" id="total" name="total" placeholder="">
+	
+	<label for="grade">Grade</label>
+    <input type="text" id="grade" name="grade" placeholder="">
+  
+    <input type="Submit" value="Submit" onclick="display()">
+  </form>
+</div>
+
+</body>
+</html>

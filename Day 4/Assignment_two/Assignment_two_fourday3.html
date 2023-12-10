@@ -1,0 +1,74 @@
+<html>
+<head>
+<script langauge="JavaScript">
+var name1,city1,college1,grade1;
+function input()
+{ var grade,name,city,college;
+
+name=document.getElementById("t1").value;
+city=document.getElementById("t2").value;
+college=document.getElementById("t3").value;
+grade=parseInt(document.getElementById("t4").value);
+
+
+name1=name;
+city1=city;
+college1=college;
+grade1=grade;
+display();
+gradeA();
+  
+ }
+ 
+function gradeA()
+{
+if(grade1 >250)
+{
+  document.write("A Grade");
+}
+else if(grade1 >100 && grade1 <250)
+{
+  document.write("B Grade");
+}
+else
+{
+  document.write(" Fail");
+}
+  
+}
+function display()
+{
+ document.write(name1+"<br>");
+  document.write(city1+"<br>");
+   document.write(college1+"<br>");
+   
+
+ 
+}
+
+</script>
+</head>
+<body>
+ Enter your Name <br>
+ <input type"text" id="t1">
+ <br>
+ 
+  Enter your city <br>
+  
+ <input type"text" id="t2">
+ <br>
+  Enter your SUbject <br>
+ <input type"text" id="t3">
+ <br>
+  Enter  your  percentage<br>
+ <input type"text" id="t4">
+  <br>
+
+ <br>
+ <input type="button" value="submit" onclick="input()">
+ <br>
+ 
+ 
+ 
+</body>
+</html>

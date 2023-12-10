@@ -1,0 +1,172 @@
+JavaScript Function :
+Function is small jobs Program.
+
+Function Seprator:
+What is Seprator ?
+1. a,b          - Variable Seprator (,)
+2. if (a>b)     - Block Seprator{ }
+{
+ a
+}
+
+3. display ();  - Function Seprator
+4. b[]          - Array Seprator
+
+how to create Function ?
+ Snytax :
+  Function name()
+  {
+     // Container Statement 
+  }
+  
+  Types of function
+  1. User define Function /  Extrensic Function
+  2. Bulltin function / Intrensic Function
+  
+  How to access Function?
+  
+  
+  display();   // (;) Function Calling operater
+  
+  1. Acces any type of function inside the JavaScript Using Button Control 
+  with help of click event.
+  
+  <input type ="Button" value ="submit" onclick="functionName()">
+  
+  2.on keyword is used to Activate the Event
+  3. function approch - Bottomup
+  
+  
+How to Acces Multiple Function ?
+
+Function within a Function concept // call another function inside the Function.
+
+
+
+<html>
+<head>
+<script language="JavaScript">
+function display()
+{
+document.write("This is my First Program");
+show();
+}
+function show()
+{
+ document.write("This is show function");
+</script>
+</head>
+<body>
+
+<input type="button" value="submit" onclick="display()">
+</body>
+</html>
+
+
+Assignment 1:
+
+genarate the following result using function concept :
+1.create a function basicinfo()
+display following information:
+( name,city,email,mobile,state,country)
+2.create a function- qualification()
+display following information (college ,semister,branch,address)
+3.create a function experiance()
+display following information (company,designation ,salary, joinning)
+
+Function Parameter / argument 
+parameter is speacil types of data used inside function seprator
+
+display(a)   //a is called parameter
+
+
+
+ Types of parameter:
+1. sender parameter  / actual parameter
+2. Receiver parameter / formal parameter
+
+1. Sender parameter -> (at the time of function calling Button event)
+2. Receiver Parameter -> (At the time of Function Creation
+
+function display(a)
+{
+
+}
+
+
+how to create multiple parameter ?
+
+  <html>
+<head>
+<script language="JavaScript">
+function display (age,name)
+{
+   document.write(age+"<br>"+name);
+}
+</script>
+</head>
+<body>
+<input type="button" value="submit" onclick="display(20,'rishi')";
+</body>
+</html>
+
+
+Assignemnt 2:
+ create a function - input()
+ except following parameter (name,city,college,branch,per)
+ logic 1. check the following condition
+        per>60 A grade
+		per>50 and per<60 B Grade
+		per>40 and per<50 C garde
+		otherwise Fail
+		
+ logic 2. display all information with Grade
+ 
+ local and global Variable concept:
+ 1. local  Variable  only used inside the Program
+ 2. Global Variable  Outside the Program
+    
+	
+	Assignemnt 3:
+	create a function input() expect following parameter - 
+	1.name , city,college,m1,m2,m3m,m4,m5
+	create a function display()
+	
+	logic 1. display all information using display function.
+	      2. calculate the total inside display()
+		  3. check the following condition
+		  if total >250 then display 1st division
+		  total  >100 and <250  display second division
+		  otherwise fail.
+		  
+		  
+		  Assignemnt 4:
+		 1. create a function input()
+		  exept following parameter(name,college,subject,branch,per)
+		  
+		 2. create a function grade
+		  except only per data value  then check following condition
+		  if per >60 - A grade
+		  per > 50 and <60 B garde
+		  otherwise Fail
+		  
+		  3.create a function display()
+		print all the information using display function.
+		
+		
+IMP		  
+ how to access Any type of HTML tag inside the JavaScript.
+ provide Id Attribute
+ ex:
+  <p id="aatribute"></p>
+  <font id="f1"></font>
+  <b id="b1"></b>
+  
+ Acces all tag inside the JavaScript with help of Id Attributes using 
+ getElementById("Id");
+ 
+ getElementById("p1");
+ getElementById("f1");
+ getElementById("b1");
+ 
+ 

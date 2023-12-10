@@ -1,0 +1,80 @@
+ 
+ <html>
+    <head>
+	<style  type="text/css">
+	 input[type=text], select {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 20%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+div {
+  border-radius: 10px;
+  background-color: #f2f2f2;
+  padding: 20px;
+
+}
+
+	</style>
+        <script language="JavaScript">
+	
+		function padStart()
+            {
+                var digit = document.getElementById('t7').value;
+                var symbol = document.getElementById('t8').value;
+                var position = document.getElementById('t9').value;
+                document.getElementById('r4').value = digit.padStart(position,symbol);
+            }
+            function padEnd()
+            {
+                var digit = document.getElementById('t7').value;
+                var symbol = document.getElementById('t8').value;
+                var position = document.getElementById('t9').value;
+                document.getElementById('r4').value = digit.padEnd(position,symbol);
+            }
+		    </script>
+    </head>
+    <body>
+	<div>
+   Enter your digit:
+        <br>
+        <input type="text"  id="t7">
+        <br>
+        Enter your Symbol:
+        <br>
+        <input type="text"  id="t8">
+        <br>
+        Enter number of positions:
+        <br>
+        <input type="text"  id="t9">
+        <br>
+        Your data is:
+        <br>
+        <input type="text"  id="r4">
+        <br>
+        <input type="Submit" value="padStart" onclick="padStart()">
+		 <input type="Submit" value="padEnd" onclick="padEnd()">
+</div>
+		</body>
+	</html>
+	
+		

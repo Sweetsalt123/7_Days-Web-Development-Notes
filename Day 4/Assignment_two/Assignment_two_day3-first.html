@@ -1,0 +1,121 @@
+<html>
+<head>
+<script language="JavaScript">
+function basicinfo()
+   {
+var name,city,email,mob,state,country,college,sem,branch,address,company,desg,salary,joining;
+// basicinfo
+name=document.getElementById("n1").value;
+
+city=document.getElementById("c1").value;
+email=document.getElementById("e1").value;
+mob=parseInt(document.getElementById("m1").value);
+state=document.getElementById("s1").value;
+country=document.getElementById("c2").value;
+
+collage=document.getElementById("c3").value;
+sem=document.getElementById("s2").value;
+branch=document.getElementById("b1").value;
+address=document.getElementById("a1").value;
+
+company=document.getElementById("c4").value;
+desg=document.getElementById("d1").value;
+salary=document.getElementById("s3").value;
+joining=document.getElementById("j1").value;
+
+
+document.write(name);
+document.write(city);
+document.write(email);
+document.write(mob);
+document.write(State);
+
+document.write(college);
+document.write(sem);
+document.write(branch);
+document.write(address);
+
+document.write(company);
+document.write(desg);
+document.write(salary);
+document.write(joining);
+
+qualification();
+experience();
+   }
+function qualification()
+   {
+
+   }
+
+function experience()
+   {
+
+document.write(company);
+document.write(desg);
+document.write(salary);
+document.write(joining);
+}
+
+</script>
+</head>
+<body>
+Enter your Name:
+<br>
+<input type="text" id="n1">
+<br>
+Enter your City:
+<br>
+<input type="text" id="c1">
+<br>
+Enter your Email Address:
+<br>
+<input type="text" id="e1">
+<br>
+Enter your Mobile Number:
+<br>
+<input type="text" id="m1">
+<br>
+Enter your State:
+<br>
+<input type="text" id="s1">
+<br>
+Enter your Country :
+<br>
+<input type="text" id="c2">
+<br>
+Enter your College :
+<br>
+<input type="text" id="c3">
+<br>
+Enter your sem :
+<br>
+<input type="text" id="s2">
+<br>
+Enter your branch :
+<br>
+<input type="text" id="b1">
+<br>
+Enter your Address :
+<br>
+<input type="text" id="a1">
+<br>
+Enter your company :
+<br>
+<input type="text" id="c4">
+<br>
+Enter your Designation :
+<br>
+<input type="text" id="d1">
+<br>
+Enter your salary :
+<br>
+<input type="text" id="s3">
+<br>
+Enter your joining :
+<br>
+<input type="text" id="j1">
+<br>
+<input type="button" value="Submit" onclick="basicinfo()">
+</body>
+</html> 
